@@ -8,11 +8,21 @@ body {
     margin: 0;
     padding: 0;
 }
+
 #tab-clipboard {
     width : 800px;
     height: 300px;
     background-color: #FCFCFC;
     border: 3px solid #FFAB00;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+#tab-clipboard2 {
+    width : 800px;
+    height: 300px;
+    background-color: #FCFCFC;
+    border: 3px solid #47D400;
     margin: 0 auto;
     border-radius: 20px;
 }
@@ -30,4 +40,12 @@ body {
 .fs-3 {
     font-family: 'Pretendard-Regular';
     font-size: 1.5em;
+}
+
+#confirm {
+    background: #FFAB00;
+    border-radius: 10px;
+    font-family: 'Pretendard-Regular';
+    border: none;
+    padding: 10px;
 }
